@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./src/FAVICON.png" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>IMGN Media</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <div class="header">
+                    <h3>Reddit posts</h3>
+                </div>
+                <div class="pagination">
+                    <ul>
+                        <li class="previous-page">Previous page</li>
+                        <li class="next-page">Next page</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <section class="container">
+
+        <div class="posts-container">
+            <div class="loader"></div>
+        </div>
+
+        <div class="error">
+            <h3>no more reddit posts for you</h3>
+            <img src="./404.webp" loading="lazy" alt="">
+        </div>
+    </section>
+    <script src="./src/app.js"></script>
+</body>
+
+</html>
